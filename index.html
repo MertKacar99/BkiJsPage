@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./bki.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bki Hesapla</title>
+  </head>
+  <body>
+    <div class="divParent">
+      <form id="form" action="">
+        <label class="label">Boyunuzu giriniz(örnek 172):</label>
+        <input   class="input"  id="boy" type="number"  >
+        <label class="label">Kilonuzu giriniz(m):</label>
+        <input type="number" id="kilo" class="input" >
+        <div class="vorder">
+          <!-- <div class="grey"></div> -->
+        </div>
+        <label id="sonuc" class="label"></label>
+        <label for="idealKilo"></label>
+        <button  id="calc" type="button" onclick="hesapla()">hesapla</button>
+      </form>
+    </div>
+  </body>
+  <script src="./bki.js"></script>
+</html>
